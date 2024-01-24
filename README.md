@@ -1,3 +1,3 @@
-# daslab-ufes_new.github.io
+# daslab-ufes_v2.github.io
 
 Nova versão do site DasLab...
