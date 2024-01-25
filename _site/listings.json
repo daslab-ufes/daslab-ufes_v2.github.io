@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/dashboards/index.html",
+    "items": [
+      "/dashboards/teste/index.html"
+    ]
+  },
+  {
+    "listing": "/projetos/index.html",
+    "items": [
+      "/projetos/netflix/index.html"
+    ]
+  },
+  {
+    "listing": "/tutoriais/index.html",
+    "items": []
+  }
+]

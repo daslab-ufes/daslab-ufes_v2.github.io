@@ -1,0 +1,67 @@
+project:
+  type: website
+
+website:
+  title: "DasLab - UFES"
+  search: false
+  favicon: img\favicon.png
+  site-url: "https://www.josecarlosinfo.com/"
+  navbar:
+    pinned: true
+    right:
+     # - href: "#home"
+     #   text: 'Home'
+      - href: sobre\index.qmd
+        text: 'Sobre'
+     # - href: "#tech-skills"
+     #   text: 'Tech Skills'
+     # - href: "#skill-sets"  
+     #   text: 'Skill Sets'
+     # - href: "#work-experience"
+     #   text: 'Work Experience'
+      - href: projetos\index.qmd
+        text: 'Projetos'
+      - href: tutoriais\index.qmd
+        text: 'Tutoriais'
+      - href: ensinar\index.qmd
+        text: 'ensinaR'
+      - href: oobr\index.qmd
+        text: 'OOBr'
+      - href: eventos\index.qmd
+        text: 'Eventos'
+      #  menu: 
+      #    - projects\index.qmd
+      #    - dashboards\index.qmd
+      # - href: JC_resume.pdf
+      #- text: 'Download CV'
+      #  menu:
+      #    - href: jose_cv_white_ENG.pdf
+      #      text: 'PDF (ENG)'
+      #    - href: jose_cv_white_ENG.docx
+      #      text: 'DOCX (ENG)'
+    left:
+      #- href: https://www.linkedin.com/in/jos%C3%A9-carlos-soares-junior-2375a714b/
+      #  icon: 'linkedin'
+      - href: https://github.com/daslab-ufes
+        icon: 'github'
+
+  page-footer: 
+    left: This work is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a>
+    center: Designed and Developed collaboratively by <br> <a href="https://www.josecarlosinfo.com/"> Jose C. S. Junior</a> & <a href="https://www.luizfigueiredo.com/"> Luiz F. P. Figueiredo</a>
+    right: Built with <a href="https://quarto.org/">Quarto</a>
+
+format:
+  html:
+    theme:
+      dark:  [minty, theme-dark.scss]
+      light: [minty, theme-light.scss]
+    css: styles.css
+    toc: true
+    grid:
+      sidebar-width: 100px
+      body-width: 900px
+      margin-width: 250px
+      gutter-width: .5rem
+
+
+

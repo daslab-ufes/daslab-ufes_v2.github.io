@@ -1,0 +1,14 @@
+{
+  "hash": "6eab8c8f8191340f1db2e410b7413c8b",
+  "result": {
+    "markdown": "---\nlayout: page\ntitle: \"\"\nexcerpt: My current CV\ncomments: false\nexecute:\n  freeze: true  # never re-render during project render\nengine: knitr \ncv:\n  pdf: \"JC_resume.pdf\"\n---\n\n<!-- ---\nformat:\n  html:\n    navbar: false\n    search: false\n    smooth-scroll: true\n    fig-responsive: true\n    highlight-style: dracula\n    theme: custom-light.scss\n    css: styles.css\n    toc: false\n    back-to-top-navigation: true\n--- -->\n\n\n::: {.cell}\n<style type=\"text/css\">\n.embed-container {\n    position: relative;\n    margin: 0 auto; /* Added margin auto to center horizontally */\n    width: 100%; /* Adjust the width as per your preference */\n    height: 0;\n    padding-bottom: 70%;\n    padding-right: 70%;\n    padding-left: 25%;\n    overflow: hidden;\n    max-width: 100%;\n}\n.embed-container iframe,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n</style>\n:::\n\n```{=html}\n<div class=\"embed-container\">\n  <iframe src=\"JC_resume.pdf\" style=\"border: 0.5px\" frameborder=\"0\" allowfullscreen=\"true\" allowtransparency=\"true\" scrolling=\"auto\"></iframe>\n</div>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
