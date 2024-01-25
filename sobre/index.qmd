@@ -1,0 +1,74 @@
+---
+title: "Texto"
+about:
+  template: trestles
+  #image: my_photo.png
+  image-width: 10em
+  #links:
+    #- icon: linkedin
+    #  text: LinkedIn
+    #  href: https://www.linkedin.com/in/jos%C3%A9-carlos-soares-junior-2375a714b/
+    #- icon: github
+    #  text: Github
+    #  href: https://github.com/Soju-JC
+toc: false
+---
+
+## Texto
+
+Texto
+
+## Texto
+
+Texto
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---
+format:
+  html:
+    search: false
+    smooth-scroll: true
+    fig-responsive: true
+    highlight-style: dracula
+    css: styles.css
+    toc: false
+    back-to-top-navigation: false
+---
+
+```{=html}
+<head>
+	<title>About Me</title>
+	<style type="text/css">
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+        
+	</style>
+</head>
+<body>
+	<img src="img\my_photo.png"><br><br>
+	Olá! meu nome é José Carlos Soares Junior.<br><br>
+
+	Como estudante de graduação em Estatística na Universidade Federal do Espírito Santo, adquiri uma vasta experiência em manipulação, interpretação e modelagem de vários tipos de dados, incluindo dados de saúde pública para populações maternas no Brasil. Em particular, trabalhei com dados de séries temporais, construindo uma base teórica e prática sólida em análise de séries temporais.<br><br>
+
+Sou uma pessoa naturalmente curiosa, sempre buscando entender como as coisas funcionam e como podem ser melhoradas. Adoro desafios e abordo a resolução de problemas com paciência e persistência. Apesar de ser introvertido, sinto-me à vontade para comunicar e colaborar com outras pessoas para alcançar objetivos comuns.<br><br>
+
+No meu tempo livre, gosto de me dedicar aos meus passatempos de assistir anime e ler mangá. Tenho uma sólida experiência em linguagem de programação R e estou constantemente melhorando minhas habilidades em Python.<br><br>
+
+No geral, sou uma pessoa detalhista com paixão pela análise de dados, com habilidades de coleta, manipulação, modelagem e interpretação de conjuntos de dados. Estou sempre procurando maneiras de aprimorar minhas habilidades como profissional e como pessoa.
+</body>
+``` -->

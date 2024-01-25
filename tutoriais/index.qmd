@@ -1,0 +1,17 @@
+---
+title: "Texto"
+back-to-top-navigation: false
+listing:
+  contents: 
+  - modelosAβK\index.qmd # artigo 1
+  sort: "date desc"
+  date-format: "DD[/]MM[/]YYYY"
+  type: default
+  fields: [image, date, title, description, author, categories]
+  categories: false
+  sort-ui: true
+  filter-ui: false 
+  page-size: 5
+  image-height: 300px
+page-layout: full
+---

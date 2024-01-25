@@ -1,0 +1,18 @@
+---
+title: "Dashboards"
+back-to-top-navigation: false
+listing:
+  contents: 
+  - teste\index.qmd
+  sort: "date desc"
+  date-format: "DD[/]MM[/]YYYY"
+  type: grid
+  fields: [image, date, title, description, author, categories]
+  categories: false
+  sort-ui: true
+  filter-ui: false  
+  grid-columns: 3
+  page-size: 9
+  image-height: 300px
+page-layout: full
+---

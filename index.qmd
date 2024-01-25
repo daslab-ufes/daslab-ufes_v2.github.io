@@ -1,0 +1,390 @@
+---
+title: ""
+search: false
+back-to-top-navigation: false
+# listing:
+# - id: blog-posts
+#   contents: blog
+#   sort: "date desc"
+#   date-format: "DD[/]MM[/]YYYY"
+#   type: grid
+#   fields: [image, date, title, description, author, categories]
+#   categories: false
+#   sort-ui: false    
+#   filter-ui: false
+#   grid-columns: 3
+#   max-items: 3
+#   image-height: 325px
+# - id: projects-posts
+#   contents: projects
+#   sort: "date desc"
+#   date-format: "DD[/]MM[/]YYYY"
+#   type: grid
+#   grid-item-align: left
+#   fields: [image, date, title, description, author, categories]
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   grid-columns: 3
+#   max-items: 3
+#   image-height: 325px  
+page-layout: full
+toc: false
+format:
+  html: 
+    margin-top: 0em
+    margin-bottom: 0em
+    minimal: false
+    smooth-scroll: false
+    fig-responsive: true
+---
+
+```{=html}
+<section id="home">
+<script>
+const toggle = document.getElementById('theme-toggle');
+const themeStyle = document.getElementById('theme-style');
+
+toggle.addEventListener('change', function() {
+  if (toggle.checked) {
+    themeStyle.href = 'theme-light.scss';
+  } else {
+    themeStyle.href = 'theme-dark.scss';
+  }
+});
+</script>
+
+<link rel="stylesheet" id="theme-style">
+
+<style>
+  .hero_content {
+    overflow-wrap: break-word !important;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    max-width: 2000px;
+    /* margin: 0%; */
+    padding-top: 0rem;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  @media (max-width: 1077px) {
+     .gradient_bg {
+      overflow-x: hidden !important;
+      overflow-y: hidden !important;
+      width: 100%;
+      font-size: 0.29em;
+      word-wrap: break-word;
+      line-height: 0.7;
+    }
+  }
+  *, *::before, *::after {
+        white-space: normal !important; /* Quebra de linha ativada para telas menores */
+  }
+ 
+  @keyframes blink {
+    to {
+      opacity: .0;
+    }
+  }
+</style>
+
+<div class="gradient_bg">
+  <div class="hero section_padding">
+    <section id="intro">   
+      <div class="intro-overlay"></div>	
+        <div class="intro-content">
+   		    <div class="row">
+            <div class="col-twelve">
+	   			    <h1>DasLab</h1>
+              <p class="intro-position">
+              <h5>Laboratório de Data Science - UFES</h5>
+	   				   <!-- <span>Estatística</span> 
+	   				   <span>Ciência de Dados</span> -->
+	   				   <!-- <span>Análise de Dados</span> -->
+	   			    </p>
+	   		    </div>    			
+   		    </div>   		 		
+   	    </div>
+      </div>
+    </section>
+  </div>
+</div>
+<div id="dot_container">
+</div>
+
+<script src="html/jquery.min.js"></script>
+<script src="html/TweenMax.min.js"></script>
+<script src="html/parallax.js"></script>
+
+</section>
+```
+
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
+
+<!-- ```{=html}
+<style>
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px; /* Adjust the gap between icons as needed */
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .icon-grid img {
+    height: 125px; /* Adjust the height of the icons */
+    width: 125px; /* Adjust the width of the icons */
+    padding: 10px;
+  }
+  
+  .icon-grid h2 {
+    margin-bottom: 0; /* Remove the default bottom margin */
+    border-bottom: none; /* Remove the line below the title */
+  }
+  
+  .icon-grid p {
+    margin-top: 0; /* Remove the default top margin */
+  }
+
+  @media (max-width: 768px) {
+    .icon-grid {
+      grid-template-columns: 1fr; /* Change to a single column layout */
+      gap: 10px; /* Adjust the gap between icons for smaller screens */
+      word-break: break-all; /* Allow text to break onto the next line */
+      word-wrap: break-word;
+      font-size: 17px;
+    }
+  }
+</style>
+
+<section id="tech-skills">
+  <h1 class="skilltitle">Tech Skills</h1>
+  <div class="icon-grid">
+    <div>
+      <a href="https://www.r-project.org/" target="_blank" title="R">
+        <img src="https://profilinator.rishav.dev/skills-assets/r.svg" alt="R">
+      </a>
+      <p>R (forecast, Tidyverse, ggplot2, etc)</p>
+    </div>  
+    <div>
+      <a href="https://www.python.org/" target="_blank" title="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="Python">
+      </a>
+      <p>Python (Pandas, NumPy, Plotly, Scikit-learn, etc)</p>
+    </div>  
+    <div>
+      <a href="https://www.postgresql.org/" target="_blank" title="PostgreSQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL">
+      </a>
+      <p>PostgreSQL/SQL (Joins, Indexes, Subqueries, etc)</p>
+    </div>
+    <div>
+      <a href="https://jupyter.org/" target="_blank" title="Jupyter">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="Jupyter">
+      </a>
+      <p>Jupyter Notebook</p>
+    </div>   
+    <div>
+      <a href="https://github.com/Soju-JC" target="_blank" title="GitHub">
+        <img src="img/github-svgrepo-com.svg" alt="GitHub">
+      </a>
+      <p>GitHub</p>
+    </div> 
+    <div>
+      <a target="_blank" title="Excel">
+        <img src="/img/excel-4.svg" alt="Excel">
+      </a>
+      <p>Excel</p>
+    </div>     
+  </div>
+</section> 
+``` -->
+
+<!-- stats skills -->
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
+
+<!-- ```{=html}
+<style>
+  .icon-grid2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .icon-grid2 img {
+    height: 125px; /* Adjust the height of the icons */
+    width: 125px; /* Adjust the width of the icons */
+    padding: 10px;
+  }
+  
+  .icon-grid2 h2 {
+    margin-bottom: 0; /* Remove the default bottom margin */
+    border-bottom: none; /* Remove the line below the title */
+  }
+  
+  .icon-grid2 p {
+    margin-top: 0; /* Remove the default top margin */
+  }
+  
+  .icon-grid2 .grid-item {
+    width: 375px; /* Adjust the width of the grid items */
+  }
+
+  @media (max-width: 768px) {
+    .icon-grid2 {
+      justify-content: flex-start;
+      padding: 0 10px;
+    }
+    
+    .icon-grid2 .grid-item {
+      width: 100%;
+    }
+  }
+</style>
+
+<div align="center">
+  <section id="skill-sets">
+   <h1 class="skilltitle">Skill Sets</h1>
+    <div class="icon-grid2">
+      <div class="grid-item">
+       <img src="img/stats.png" alt="Statistics">
+       <h2>Math and Statistics</h2>
+       <ul style="text-align: left; padding-left: 20px; list-style-type: none;">
+        <li>&#9830; Time Series Analysis</li>
+        <li>&#9830; Stochastic Processes</li>
+        <li>&#9830; Statistical Inference</li>
+        <li>&#9830; Nonparametric Statistics</li>
+        <li>&#9830; Hypothesis Testing</li>
+        <li>&#9830; Regression Analysis</li>
+        <li>&#9830; Multivariate Analysis</li>
+        <li>&#9830; Robust Statistics</li>
+        <li>&#9830; Exploratory Data Analysis (EDA)</li>
+        <li>&#9830; Probability Theory</li>
+        <li>&#9830; Operational Research</li>
+        <li>&#9830; Linear Algebra</li>
+        <li>&#9830; Calculus</li>
+       </ul>
+      </div>
+      <div class="grid-item">
+       <img src="img/ai_1966931.png" alt="Machine Learning">
+       <h2>Machine Learning</h2>
+       <ul style="text-align: left; padding-left: 20px; list-style-type: none;">
+        <li>&#9830; Algorithms (Logistic regression, Random Forest, SVM, Gradient boosting, etc)</li>
+        <li>&#9830; Cross-validation</li>
+       </ul>
+      </div>
+      <div class="grid-item">
+       <img src="img/database-svgrepo-com.svg" alt="Data Engineering">
+       <h2>Data Engineering</h2>
+       <ul style="text-align: left; padding-left: 20px; list-style-type: none;">
+        <li>&#9830; SQL (Filtering, Joins, TimeStamp manipulation, Functions, Group By, Window functions, Views, Subqueries, query optimization with indexes, etc)</li>
+       </ul>
+      </div>  
+    </div>
+  </section>
+</div>
+```  -->
+<!-- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> -->
+
+<!-- ```{=html}
+<html lang="en">
+  <body>
+    <section id="work-experience">
+      <div class="container">
+        <div class="timeline">
+          <h1 class="experiencetitle">Work experience</h1>
+          <ul>
+            <li>
+              <div class="timeline-content">
+               <h3 class="date">Feb 2023 - Present </h3>
+               <h1> <i>Professional development</i> (Career Break)</h1>
+               <p>Taking the time to complete my undergraduate degree and delve deeper into my theoretical knowledge of statistics. Simultaneously, I'm engaging in practical courses and non-employment-related projects focused on data-related areas. This approach allows me to enhance both theory and practice in the field of data, with the goal of becoming a more well-rounded professional. I aim to apply my knowledge more efficiently and with greater versatility, and also to identify the areas that truly pique my interest. This way, I can establish concrete goals to become highly proficient in specific areas while maintaining a broad understanding of related fields. This break is expected to last for a maximum of 1 year.</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+               <h3 class="date">Aug 2021 - Jan 2023 · 1 yr 6 mos</h3>
+               <h1> <i>Scientific Initiation Scholar in Statistics</i> at OOBr</h1>
+               <p>• Time series analysis on public health data for maternal populations in Brazil, specifically focusing on data related to pregnant women and postpartum women.</p>
+               <p>• General statistical analysis on public health data.</p>
+               <p>• Programming and preparation of technical reports using the R language, RStudio environment, and RMarkdown tool.</p>
+               <p>• Writing articles for the corporate blog.</p>
+               <p>• Construction, documentation, deployment, and maintenance of interactive panels using Shiny.</p>
+               <p>• Development and writing of chapters on R and non-parametric tests for the project's book titled "Applied Data Science in Maternal and Child Health".</p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+               <h3 class="date">Aug 2020 - Jul 2021 · 1 yr</h3>
+               <h1> <i>Scientific Initiation Scholar in Statistics</i> at FAPES</h1>
+               <p>• Functional data analysis.</p>
+               <p>• Quantitative research.</p>
+               <p>• Programming in R.</p>
+               <p>• Preparation of technical reports.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+``` -->
+
+<!-- ::: {.column width="125%"}
+## Recent projects / Projetos recentes
+::: {#projects-posts}
+:::
+
+## Recent blog posts / Blog posts recentes 
+::: {#blog-posts}
+:::
+:::  -->
