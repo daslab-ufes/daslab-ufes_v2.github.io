@@ -1,17 +1,26 @@
 ---
-title: "Texto"
+title: "Tutoriais"
 back-to-top-navigation: false
 listing:
   contents: 
-  - modelosAβK\index.qmd # artigo 1
+  - myanimelist\index.qmd # Tutorial 1
+  - netflix\index.qmd # Tutorial 2
+  - teste\index.qmd # Tutorial 3
+  - teste4\index.qmd # Tutorial 4
   sort: "date desc"
   date-format: "DD[/]MM[/]YYYY"
-  type: default
+  type: grid
   fields: [image, date, title, description, author, categories]
   categories: false
   sort-ui: true
-  filter-ui: false 
-  page-size: 5
+  filter-ui: false  
+  grid-columns: 3
+  page-size: 9
   image-height: 300px
 page-layout: full
 ---
+
+## 
+
+::: {#tutoriais}
+:::

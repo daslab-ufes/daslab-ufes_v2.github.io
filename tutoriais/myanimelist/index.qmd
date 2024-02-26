@@ -1,0 +1,26 @@
+---
+title: "Interpretabilidade em modelos preditivos – discussões iniciais na área da saúde"
+title-block-banner: banner.jpeg
+draft: false
+image: "capa-myanimelist.jpg"
+search: false
+date: 2020-06-1
+description: "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto"
+author: 
+  - Agatha S. Rodrigues
+categories: 
+  - Saúde
+  - Teoria
+  - Modelos Preditivos
+toc: true
+execute:
+  echo: true
+  freeze: true
+format: 
+  html:
+    page-layout: full
+    code-fold: true
+    code-tools: true
+---
+
+# Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto

@@ -1,0 +1,24 @@
+---
+title: "Construindo playlists no Spotify a partir de modelos probabilísticos "
+title-block-banner: banner.jpeg
+draft: false
+image: "capa-netflix.jpg"
+search: false
+date: 2020-06-08
+description: "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto"
+author: 
+  - Bruno Santos
+toc: true
+execute:
+  echo: true
+  freeze: true
+format: 
+  html:
+    page-layout: full
+    code-fold: true
+    code-tools: false
+---
+
+# Texto
+
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto

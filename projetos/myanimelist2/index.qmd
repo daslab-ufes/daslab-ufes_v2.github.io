@@ -1,0 +1,24 @@
+---
+title: "EnsinaR"
+title-block-banner: banner.jpeg
+draft: false
+image: "capa-myanimelist.jpg"
+search: false
+date: 2020-01-01
+description: "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto"
+author: 
+  - Agatha Sacramento Rodrigues
+categories: 
+  - Texto
+toc: true
+execute:
+  echo: true
+  freeze: true
+format: 
+  html:
+    page-layout: full
+    code-fold: true
+    code-tools: true
+---
+
+# Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
