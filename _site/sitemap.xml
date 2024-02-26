@@ -1,43 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.josecarlosinfo.com/dashboards/index.html</loc>
-    <lastmod>2024-01-25T07:10:23.750Z</lastmod>
+    <loc>https://www.josecarlosinfo.com/tutoriais/teste4/index.html</loc>
+    <lastmod>2024-02-26T17:50:37.930Z</lastmod>
   </url>
   <url>
-    <loc>https://www.josecarlosinfo.com/dashboards/teste/index.html</loc>
-    <lastmod>2024-01-25T07:10:24.270Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/ensinar/index.html</loc>
-    <lastmod>2024-01-25T07:10:24.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/eventos/index.html</loc>
-    <lastmod>2024-01-25T07:10:25.385Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/index.html</loc>
-    <lastmod>2024-01-25T07:10:26.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/oobr/index.html</loc>
-    <lastmod>2024-01-25T07:10:28.425Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/projetos/index.html</loc>
-    <lastmod>2024-01-25T07:10:29.068Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/projetos/netflix/index.html</loc>
-    <lastmod>2024-01-25T07:10:30.061Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.josecarlosinfo.com/sobre/index.html</loc>
-    <lastmod>2024-01-25T07:10:30.529Z</lastmod>
+    <loc>https://www.josecarlosinfo.com/tutoriais/netflix/index.html</loc>
+    <lastmod>2024-02-26T17:48:46.999Z</lastmod>
   </url>
   <url>
     <loc>https://www.josecarlosinfo.com/tutoriais/index.html</loc>
-    <lastmod>2024-01-25T07:10:31.083Z</lastmod>
+    <lastmod>2024-02-26T20:55:26.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/projetos/teste5/index.html</loc>
+    <lastmod>2024-02-26T17:55:17.801Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/projetos/netflix2/index.html</loc>
+    <lastmod>2024-02-26T17:53:41.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/projetos/index.html</loc>
+    <lastmod>2024-02-26T20:56:54.218Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/index.html</loc>
+    <lastmod>2024-02-26T21:04:50.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/ensinar/index.html</loc>
+    <lastmod>2024-02-21T00:30:17.299Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/dashboards/index.html</loc>
+    <lastmod>2024-02-21T00:30:17.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/dashboards/teste/index.html</loc>
+    <lastmod>2024-02-21T00:30:17.299Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/eventos/index.html</loc>
+    <lastmod>2024-02-21T00:30:17.299Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/oobr/index.html</loc>
+    <lastmod>2024-02-21T00:30:17.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/projetos/myanimelist2/index.html</loc>
+    <lastmod>2024-02-26T17:52:55.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/projetos/teste2/index.html</loc>
+    <lastmod>2024-02-26T17:55:19.136Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/sobre/index.html</loc>
+    <lastmod>2024-02-21T00:30:17.335Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/tutoriais/myanimelist/index.html</loc>
+    <lastmod>2024-02-26T20:46:23.987Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.josecarlosinfo.com/tutoriais/teste/index.html</loc>
+    <lastmod>2024-02-26T17:49:18.581Z</lastmod>
   </url>
 </urlset>

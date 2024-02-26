@@ -2,7 +2,39 @@
 title: ""
 search: false
 back-to-top-navigation: false
-# listing:
+listing:
+  # - id: material
+  #   contents: material/Certifications/*/index.qmd
+  #   type: grid
+  #   fields: [image, title]
+  #   sort: "date desc"
+  #   #categories: cloud
+  #   sort-ui: false
+  #   filter-ui: false
+  #   grid-columns: 3
+  #   max-items: 3
+  - id: tutoriais
+    contents: tutoriais/*/index.qmd
+    type: grid
+    fields: [image, title]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 4
+    max-items: 4
+    image-height: 350px 
+  - id: projetos
+    contents: projetos/*/index.qmd
+    type: grid
+    fields: [image, title]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 4
+    max-items: 4
+    image-height: 350px 
 # - id: blog-posts
 #   contents: blog
 #   sort: "date desc"
@@ -34,14 +66,16 @@ format:
   html: 
     margin-top: 0em
     margin-bottom: 0em
+    margin-left: 0em
+    margin-right: 0em
     minimal: false
-    smooth-scroll: false
+    smooth-scroll: true
     fig-responsive: true
 ---
 
 ```{=html}
-<section id="home">
-<script>
+<!-- <section id="home"> -->
+<!-- <script>
 const toggle = document.getElementById('theme-toggle');
 const themeStyle = document.getElementById('theme-style');
 
@@ -52,12 +86,16 @@ toggle.addEventListener('change', function() {
     themeStyle.href = 'theme-dark.scss';
   }
 });
-</script>
+</script> -->
 
-<link rel="stylesheet" id="theme-style">
-
+<!-- <link rel="stylesheet" id="theme-style"> -->
 <style>
-  .hero_content {
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.hero_content {
     overflow-wrap: break-word !important;
   }
   .hero {
@@ -91,35 +129,198 @@ toggle.addEventListener('change', function() {
   }
 </style>
 
-<div class="gradient_bg">
-  <div class="hero section_padding">
+<!-- <header class="hero"> -->
+<!-- <div class="container spacing"> -->
+<!-- <div class="gradient_bg"> -->
+  <!-- <div class="hero section_padding"> -->
     <section id="intro">   
       <div class="intro-overlay"></div>	
         <div class="intro-content">
    		    <div class="row">
             <div class="col-twelve">
-	   			    <h1>DasLab</h1>
+	   			    <h1 style="color: white;">Das<span style="color: white;">Lab</span></h1>
               <p class="intro-position">
-              <h5>Laboratório de Data Science - UFES</h5>
-	   				   <!-- <span>Estatística</span> 
-	   				   <span>Ciência de Dados</span> -->
-	   				   <!-- <span>Análise de Dados</span> -->
-	   			    </p>
+              <h5 class="scroll-text">Laboratório de Data Science - UFES</h5></p>
 	   		    </div>    			
    		    </div>   		 		
    	    </div>
       </div>
     </section>
   </div>
-</div>
-<div id="dot_container">
-</div>
-
+<!-- </div> -->
+<!-- <div id="dot_container">
+</div> -->
+<!-- </div> -->
+<!-- </header> -->
+<!-- 
 <script src="html/jquery.min.js"></script>
 <script src="html/TweenMax.min.js"></script>
-<script src="html/parallax.js"></script>
+<script src="html/parallax.js"></script> -->
 
-</section>
+<!-- </section> -->
+
+<!-- -------------------------------------------------------------------------------   -->
+
+    <!-- <section class="featured"> -->
+      <!-- <div class="container"> -->
+        <!-- <h2 class="section-title">Sobre</h2> -->
+        <!-- ----------------------------------------------------------------- -->
+        <!-- <div class="split">
+          <a href="#" class="featured__item">
+            <img src="img\daslab.png" alt="" class="featured__img">
+          </a>
+        </div> -->
+        <!-- ----------------------------------------------------------------- -->
+      <!-- </div> -->
+    <!-- </section> -->
+<!-- -------------------------------------------------------------------------------   -->
+    <!-- <section class="our-products">
+      <div class="container">
+        <h2 class="section-title">Our products</h2>
+
+        <article class="product shoe-red spacing">
+          <img src="img\shoe-1.png" alt="" class="product__image">
+          <h3 class="product__title">A really nice shoe</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+          <a href="" class="btn">Buy now</a>
+        </article>
+
+        <article class="product shoe-white shoe-left spacing">
+          <img src="img\shoe-2.png" alt="" class="product__image">
+          <h3 class="product__title">A really nice shoe</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+          <a href="" class="btn">Buy now</a>
+        </article>
+
+        <article class="product shoe-blue spacing">
+          <img src="img\shoe-3.png" alt="" class="product__image">
+          <h3 class="product__title">A really nice shoe</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+          <a href="" class="btn">Buy now</a>
+        </article>
+
+      </div>
+    </section> -->
+```
+
+
+<div class="layout_sobre">
+```{=html}
+  <div class="text-container">
+    <h1 style="font-size: 40px;
+      margin-bottom:40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      color: #ff5724;
+      background-clip: text;
+      -webkit-background-clip: text;"
+      class="scroll-text"> O que é Data Science?
+    </h1>
+    <p>A Ciência de Dados (Data Science, em inglês) surgiu como um campo multidisciplinar para apoiar atividades orientadas a dados, integrando e desenvolvendo ideias, métodos e processos para obter informações a partir de dados. Esses métodos advêm de diferentes áreas, como Matemática, Estatística, Ciência da Computação e Engenharia, e, quando unificados, dão origem à Ciência de Dados. Técnicas de modelagem estatística, classificação, mineração de dados, aprendizado de máquina, inteligência artificial e métodos preditivos são essenciais para a análise intensiva de diferentes tipos de dados e geração de informações para a tomada de decisões.</p>
+    <br>
+  </div>
+  <div class="text-container">
+    <h1 style="font-size: 40px;
+      margin-bottom:25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      color: #ff5724;
+      background-clip: text;
+      -webkit-background-clip: text;"
+      class="scroll-text"> Sobre o Laboratório
+    </h1>
+    <p>O Laboratório de Ciência de Dados (DaSLab) visa promover a discussão, apresentar o desenvolvimento e as potencialidades e oxigenar a área de Ciência de Dados, enfatizando o elemento multidisciplinar e fundamental da pesquisa aplicada e teórica. No DaSLab, estamos constantemente buscando novas maneiras de aplicar a Ciência de Dados para resolver problemas do mundo real. Nossos projetos abrangem uma ampla gama de áreas, incluindo saúde, segurança pública e confiabilidade de componentes e sistemas. Ao combinar metodologias estatísticas, big data e machine learning, estamos desenvolvendo soluções inovadoras que têm um impacto real na sociedade.</p>
+    <div class="d-flex align-items-center justify-content-center">
+      <a href="../sobre/index.html"> <button type="button" class="btn btn-sm custom-btn">Saiba mais</button></a>
+    </div>
+  </div>
+```
+</div>
+
+<div class="layout_tutoriais">
+
+```{=HTML}
+
+<h1 style="font-size: 40px;
+margin-bottom:40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+  color: #ff5724;
+  background-clip: text;
+  -webkit-background-clip: text;"
+  class="scroll-text"> Tutoriais
+
+</h1>
+```
+
+
+::: {#tutoriais}
+:::
+
+<div class="d-flex align-items-center justify-content-center">
+<a href="../tutoriais/index.html"> <button type="button" class="btn btn-sm custom-btn">Ver mais</button></a>
+</div>
+</div>
+
+<div class="layout_projetos">
+
+```{=HTML}
+
+<h1 style="font-size: 40px;
+margin-bottom:40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 700;
+  color: #ff5724;
+  background-clip: text;
+  -webkit-background-clip: text;"
+  class="scroll-text"> Projetos
+
+</h1>
+```
+
+
+::: {#projetos}
+:::
+
+<div class="d-flex align-items-center justify-content-center">
+<a href="../projetos/index.html"> <button type="button" class="btn btn-sm custom-btn">Ver mais</button></a>
+</div>
+</div>
+
+```{=html}
+
+<script src="js/text_obs.js"></script>
+<script src="js/text_obs_achiev.js"></script>
+<!-- <script src="js/text.js"></script> -->
+<!-- <script src="js/background.js"></script> -->
+<!-- <script src="js/slider.js"></script> -->
+<!-- <script src="js/pagination.js"></script> -->
+
+<script> 
+
+document.addEventListener('DOMContentLoaded', function () {
+  var images = document.getElementsByClassName('lukas');
+  
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener('mouseup', function (event) {
+      var url = event.target.getAttribute('data-url');
+      window.open(url, '_blank');
+    });
+  }
+});
+
+</script>
 ```
 
 <!-- <br>

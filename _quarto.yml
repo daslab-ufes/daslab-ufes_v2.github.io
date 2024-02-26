@@ -19,10 +19,10 @@ website:
      #   text: 'Skill Sets'
      # - href: "#work-experience"
      #   text: 'Work Experience'
-      - href: projetos\index.qmd
-        text: 'Projetos'
       - href: tutoriais\index.qmd
         text: 'Tutoriais'
+      - href: projetos\index.qmd
+        text: 'Projetos'
       - href: ensinar\index.qmd
         text: 'ensinaR'
       - href: oobr\index.qmd
@@ -47,13 +47,13 @@ website:
 
   page-footer: 
     left: This work is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a>
-    center: Designed and Developed collaboratively by <br> <a href="https://www.josecarlosinfo.com/"> Jose C. S. Junior</a> & <a href="https://www.luizfigueiredo.com/"> Luiz F. P. Figueiredo</a>
+    center: Designed and Developed by <br> <a href="https://www.josecarlosinfo.com/"> Jose C. S. Junior</a> 
     right: Built with <a href="https://quarto.org/">Quarto</a>
 
 format:
   html:
     theme:
-      dark:  [minty, theme-dark.scss]
+      #dark:  [minty, theme-dark.scss]
       light: [minty, theme-light.scss]
     css: styles.css
     toc: true

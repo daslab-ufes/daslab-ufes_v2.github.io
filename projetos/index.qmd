@@ -1,20 +1,26 @@
 ---
-title: "Texto"
+title: "Projetos"
 back-to-top-navigation: false
 listing:
   contents: 
-  - myanimelist\index.qmd # project 1
-  - netflix\index.qmd # project 2
-  - asteroids\index.qmd # project 3
+  - myanimelist2\index.qmd # projeto 1
+  - netflix2\index.qmd # projeto 2
+  - teste2\index.qmd # projeto 3
+  - teste5\index.qmd # projeto 4
   sort: "date desc"
   date-format: "DD[/]MM[/]YYYY"
-  type: grid
+  type: default
   fields: [image, date, title, description, author, categories]
   categories: false
   sort-ui: true
   filter-ui: false  
   grid-columns: 3
-  page-size: 9
+  page-size: 3
   image-height: 300px
 page-layout: full
 ---
+
+## 
+
+::: {#tutoriais}
+:::
