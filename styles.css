@@ -1,5 +1,98 @@
 /* css styles */
 
+body {
+	background-color: white;
+	margin: 0;
+  }
+
+.col-twelve {
+	position: relative;
+	bottom: 550px;
+}
+
+.img-padrao {
+	position: relative;
+}
+
+.saibabutton {
+	display: grid;
+	grid-column-start: 5;
+	grid-column-end: 11;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 636px) {
+
+	.layout_sobre {
+		grid-template-columns: 1fr;
+
+	}
+	
+	}
+
+
+	@media (min-width: 636px) and (max-width: 3000px) {
+	  
+		.layout_sobre {
+			grid-template-columns: 1fr 1fr;
+	
+		}
+
+		.ieiegluglu {
+			margin-left: 50px;
+		
+		}
+	 
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nav-footer a {
     color: #ffffff;
 }
@@ -366,15 +459,20 @@ code span.co {
 	height: 100%;
 	min-height: 720px;
 	display: table;
-	position: relative;
+	position: absolute;
 	text-align: center;
+
+	
+	left: 0px;
+	right: 0px;
+	
 }
 .intro-overlay {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 75%;
 	background: transparent;
 	opacity: 0.85;
 }
@@ -386,6 +484,7 @@ code span.co {
 	-webkit-transform: translateY(-2.1rem);
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
+
 }
 
 @media only screen and (max-width:1024px) {
@@ -670,17 +769,25 @@ section {
 
 .layout_sobre{
 	padding: 0% 9%;
-	display: grid;      
-	grid-template-columns: 1fr 1fr; 
+	display: grid;       
 	grid-gap: 12px; 
-	align-items: center;
 	background-color: #faf2ed;
+	margin-top: 0px;
 	margin-left: 0cm;
 	margin-right: 0cm;
 	text-align: center;
 	position: relative;
 	/* vertical-align: -webkit-baseline-middle; */
-	margin-top: 12%;
+
+    
+
+
+
+
+
+
+	margin-top: 132.5;
+	padding-top: 0px;
   }
 
 .layout_tutoriais{
