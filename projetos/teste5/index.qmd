@@ -8,6 +8,10 @@ date: 2020-01-04
 description: "Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto"
 author: 
   - Agatha Sacramento Rodrigues
+categories: 
+  - Texto
+  - Texto
+  - Texto
 toc: true
 execute:
   echo: true

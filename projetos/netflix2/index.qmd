@@ -10,6 +10,10 @@ author:
   - Nátaly Adriana Jiménez Monroy
   - Fabio A. Fajardo Molinares
   - Luciana Graziela Godoi
+categories: 
+  - Texto
+  - Texto
+  - Texto
 toc: true
 execute:
   echo: true

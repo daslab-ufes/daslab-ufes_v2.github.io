@@ -10,6 +10,8 @@ author:
   - Agatha Sacramento Rodrigues
 categories: 
   - Texto
+  - Texto
+  - Texto
 toc: true
 execute:
   echo: true
