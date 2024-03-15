@@ -13,6 +13,7 @@ categories:
   - Texto
   - Texto
 toc: true
+lang: pt
 execute:
   echo: true
   freeze: true
