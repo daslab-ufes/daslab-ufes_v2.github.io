@@ -16,7 +16,7 @@ listing:
   - id: tutoriais
     contents: tutoriais/*/index.qmd
     type: grid
-    fields: [image, date, title, description, categories]
+    fields: [image, date, title, categories]
     sort: "date desc"
     #categories: cloud
     sort-ui: true
@@ -28,7 +28,7 @@ listing:
   - id: projetos
     contents: projetos/*/index.qmd
     type: grid
-    fields: [image, date, title, description, categories]
+    fields: [image, date, title, categories]
     sort: "date desc"
     #categories: cloud
     sort-ui: true
@@ -64,6 +64,7 @@ listing:
 #   image-height: 325px  
 page-layout: custom
 toc: false
+lang: pt
 format:
   html: 
     margin-top: 0em
@@ -251,6 +252,7 @@ font-weight: 700;
 ::: {#tutoriais}
 :::
 
+<br>
 <div class="d-flex align-items-center justify-content-center">
 <a href="../tutoriais/index.html"> <button type="button" class="btn btn-sm custom-btn">Ver mais</button></a>
 </div>
@@ -278,6 +280,7 @@ font-weight: 700;
 ::: {#projetos}
 :::
 
+<br>
 <div class="d-flex align-items-center justify-content-center">
 <a href="../projetos/index.html"> <button type="button" class="btn btn-sm custom-btn">Ver mais</button></a>
 </div>

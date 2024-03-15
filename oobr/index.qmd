@@ -12,6 +12,7 @@ about:
     #  text: Github
     #  href: https://github.com/Soju-JC
 toc: false
+lang: pt
 ---
 
 ## Texto

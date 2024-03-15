@@ -18,6 +18,8 @@ listing:
   page-size: 3
   image-height: 300px
 page-layout: full
+toc: false
+lang: pt
 ---
 
 ## 

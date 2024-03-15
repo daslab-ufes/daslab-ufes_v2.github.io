@@ -11,15 +11,24 @@ listing:
   date-format: "DD[/]MM[/]YYYY"
   type: grid
   fields: [image, date, title, description, author, categories]
-  categories: false
+  categories: true
   sort-ui: true
   filter-ui: false  
-  grid-columns: 3
-  page-size: 9
-  image-height: 300px
-page-layout: full
+  grid-columns: 2
+  page-size: 2
+  image-height: 325px
+page-layout: article
+toc: false
+lang: pt
 ---
 
+```{=html}
+<style>
+body {
+	background-color: white;
+  }
+</style>
+```
 ## 
 
 ::: {#tutoriais}
