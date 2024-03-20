@@ -10,14 +10,14 @@ listing:
   sort: "date desc"
   date-format: "DD[/]MM[/]YYYY"
   type: grid
-  fields: [image, date, title, description, author, categories]
+  fields: [image, date, title, author, categories]
   categories: true
   sort-ui: true
   filter-ui: false  
-  grid-columns: 2
-  page-size: 2
-  image-height: 325px
-page-layout: article
+  grid-columns: 3
+  page-size: 3
+  image-height: 250px
+page-layout: full
 toc: false
 lang: pt
 ---
@@ -26,7 +26,14 @@ lang: pt
 <style>
 body {
 	background-color: white;
+/*   margin-left: 10%;
+  margin-right: 10%; */
   }
+nav-footer{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 </style>
 ```
 ## 

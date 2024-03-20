@@ -24,7 +24,7 @@ listing:
     categories: false
     grid-columns: 4
     max-items: 4
-    image-height: 325px 
+    image-height: 250px 
   - id: projetos
     contents: projetos/*/index.qmd
     type: grid
@@ -36,7 +36,7 @@ listing:
     categories: false
     grid-columns: 4
     max-items: 4
-    image-height: 325px 
+    image-height: 250px 
 # - id: blog-posts
 #   contents: blog
 #   sort: "date desc"
