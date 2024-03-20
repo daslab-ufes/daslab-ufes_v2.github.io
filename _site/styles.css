@@ -2349,14 +2349,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 19px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 0px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 19px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 /* 	  .team .member .social a{
 		margin-top: 12px;
@@ -2394,14 +2397,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 21px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 21px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 /* 	  .team .member .social a{
 		margin-top: 12px;
@@ -2439,14 +2445,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 17px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 0px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 17px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2485,14 +2494,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 7px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 15px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 15px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2530,14 +2542,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 14px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 0px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 14px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2575,14 +2590,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 12px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 0px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 12px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2621,14 +2639,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 7px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 11px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 11px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2667,14 +2688,17 @@ body{
 		justify-content: flex-start;
 	  }
 	  .team .member .member-info {
-		padding-left: 7px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 9px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 9px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 9px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2718,9 +2742,12 @@ body{
 		font-size: 7px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 0px;
+		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
 		font-size: 7px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2761,12 +2788,15 @@ body{
 	  .team .member .member-info {
 		padding-left: 5px;
 		grid-template-columns: 1fr 1fr;
-		font-size: 5px;
+		font-size: 6px;
 	  }
 	  .team .member .member-info h5 {
-		padding-left: 0px;
+		padding-left: 5px;;
 		grid-template-columns: 1fr 1fr;
-		font-size: 5px;
+		font-size: 6px;
+	  }
+	  .team .member .member-info li {
+		padding-left: 5px;
 	  }
 	  .team .member .social a{
 		margin-top: 12px;
@@ -2780,13 +2810,13 @@ body{
 	  .team .member .member-heading {
 		font-weight: 700;
 		margin-bottom: 5px;
-		font-size: 7px;
+		font-size: 8px;
 		color: #556270;
 		line-height: 1.2;
 	  }
 	  .team .member span {
 		display: block;
-		font-size: 5px;
+		font-size: 6px;
 		padding-bottom: 10px;
 		position: relative;
 		font-weight: 500;
