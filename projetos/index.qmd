@@ -26,3 +26,11 @@ lang: pt
 
 ::: {#tutoriais}
 :::
+
+```{=html}
+<style>
+body {
+	background: white;
+  }
+</style>
+```

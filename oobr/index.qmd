@@ -15,6 +15,14 @@ toc: false
 lang: pt
 ---
 
+```{=html}
+<style>
+body {
+	background: white;
+  }
+</style>
+```
+
 ## Texto
 
 Texto
