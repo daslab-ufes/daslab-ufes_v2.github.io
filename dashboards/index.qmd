@@ -16,3 +16,11 @@ listing:
   image-height: 300px
 page-layout: full
 ---
+
+```{=html}
+<style>
+body {
+	background: white;
+  }
+</style>
+```
